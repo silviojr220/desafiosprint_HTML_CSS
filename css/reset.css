@@ -10,6 +10,7 @@
 body {
 	min-height: 100vh;
 	min-width: 100vw;
+	font-family: 'Poppins', sans-serif;
 }
 
 .menu {
@@ -22,7 +23,8 @@ body {
 .menu__img {
 	width: 100%;
 	max-width: 10%;
-	min-width: 70px;
+	min-width: 75px;
+	min-height: 25px;
 }
 
 .nav {
@@ -42,6 +44,7 @@ body {
 	flex-wrap: wrap;
 }
 
+
 a {
 	text-decoration: none;
 }
@@ -49,4 +52,32 @@ a {
 .separar {
 	width: 100%;
 	max-width: 10%;
+	min-width: 75px;
+	min-height: 25px;
+}
+
+.rodape{
+	background: #011585;
+    color: rgb(255, 255, 255);
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+	list-style: none;
+		flex-wrap: wrap;
+}
+
+.redes_sociais {
+	display: flex;
+    align-items: center;
+	list-style: none;
+	flex: 1;
+
+}
+
+.rodape__logo {
+	display: flex;
+	flex: 1;
+	max-width: 100px;
 }
