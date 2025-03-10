@@ -4,10 +4,12 @@
     align-items: center;
 }
 
-#conteudo__principal {
-    display: flex;
-    flex-direction: column;
+.conteudo__principal {
     align-items: center;
-    width: 100%;
-align-content: flex-start;
+    justify-content: center;
+}
+
+#imagem__principal {
+    display: flex;
+    position: relative;
 }
