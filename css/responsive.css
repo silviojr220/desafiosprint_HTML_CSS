@@ -1,0 +1,37 @@
+li {
+    font-size: 3vw; /* A fonte será 2% da largura da viewport */
+}
+
+/* Ajuste o tamanho da fonte para diferentes tamanhos de tela */
+
+@media (min-width: 300px) {
+	li {
+		font-size: 3vw;
+	}
+	
+}
+@media (min-width: 600px) {
+    li {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 900px) {
+    li {
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    li {
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 100px) {
+ .rodape img, #imagem__COPYRIGHT{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
