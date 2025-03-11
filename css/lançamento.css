@@ -1,10 +1,29 @@
 .conteudo {
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 100vw;
+}
+
+.main__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video__main {
     width: 100%;
 }
 
-#video__principal {
+#texto__conteudo {
+    bottom: 10px;
     align-items: center;
+    text-align: justify;
+}
+
+
+.main__carros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

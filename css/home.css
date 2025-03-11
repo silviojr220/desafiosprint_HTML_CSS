@@ -2,14 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 75vh;
 }
 
-.conteudo__principal {
-    align-items: center;
-    justify-content: center;
-}
-
-#imagem__principal {
+.imagem {
     display: flex;
-    position: relative;
+    justify-content: center;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#texto__conteudo {
+    text-align: justify;
 }

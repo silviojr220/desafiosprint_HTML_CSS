@@ -4,20 +4,27 @@ li {
 
 /* Ajuste o tamanho da fonte para diferentes tamanhos de tela */
 
+@media screen and (min-width: 250px) {
+    #texto__img, .redes_sociais  {
+        font-size: 2vw;
+    }
+    
+}
+
 @media (min-width: 300px) {
-	li {
+    #texto__img, .redes_sociais {
 		font-size: 3vw;
 	}
 	
 }
 @media (min-width: 600px) {
-    li {
+    li,     #texto__img, .redes_sociais {
         font-size: 2vw;
     }
 }
 
 @media (min-width: 900px) {
-    li {
+    li, .redes_sociais, #texto__img {
         font-size: 1.2vw;
     }
 }
@@ -29,9 +36,42 @@ li {
 }
 
 @media screen and (min-width: 100px) {
- .rodape img, #imagem__COPYRIGHT{
-        height: 100%;
-        width: 100%;
+ .rodape img, #imagem__COPYRIGHT {
+        height: 90%;
+        width: 90%;
+    }
+    
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1600px) {
+    .imagem {
+        height: 75%;
+        width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 1450px) {
+    .imagem {
+        height: 90%;
+        width: 90%;
+    }
+    
+}
+
+@media screen and (min-width: 200px) {
+    .imagem {
+        height: 75%;
+        width: 75%;
     }
     
 }
