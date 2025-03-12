@@ -1,42 +1,65 @@
 .conteudo {
     display: flex;
-    justify-content: center;
-    min-width: 100%;
-    min-height: 100vh;
     flex-direction: column;
+    width: 100vw;
 }
 
 .main__conteudo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
     width: 100%;
-    height: 100%;
-flex-wrap: wrap;
+
+    flex-wrap: wrap;
+
 }
 
 #video__main {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 40vh;
 }
 
 #video__ford {
     width: 100%;
-    height: 30vh;
+    height: 100%;
 }
 
-#texto__conteudo {
-    align-items: center;
-    text-align: justify;
-}
-
-#titulo__texto {
-    color: rgb(255, 0, 0);
-}
 
 .main__carros {
     display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 100%;
     justify-content: center;
+
+}
+
+.carrosVendas {
+display: flex;
+flex-direction: row;
+}
+
+.checkbox {
+    transform: scale(1.2);
+}
+
+.tabela__info
+
+.descricao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
     align-items: center;
-    flex-direction: column;
+    
+}
+
+h4 {
+    color: blue;
+    font-size: 80%;
+}
+
+label {
+    font-size: 60%;
+}
+
+.tabela{
+    justify-content: space-between;
 }

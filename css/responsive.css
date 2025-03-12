@@ -1,8 +1,7 @@
-li {
-    font-size: 3vw; /* A fonte será 2% da largura da viewport */
+/* li {
+    font-size: 3vw;
 }
 
-/* Ajuste o tamanho da fonte para diferentes tamanhos de tela */
 
 @media screen and (min-width: 200px) {
     #texto__img, .redes_sociais  {
@@ -81,4 +80,13 @@ li {
         width: 75%;
     }
     
+} */
+
+
+@media screen and (min-width: 100px) {
+    .redes_sociais a {
+        font-size: 0%;
+        height: 50%;
+        width: 50%;
+    }
 }

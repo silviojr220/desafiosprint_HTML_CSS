@@ -8,8 +8,8 @@
 }
 
 body {
-	min-height: 110vh;
-	min-width: 100vw;
+	min-height: 100vh;
+	min-width: 100%;
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -17,7 +17,7 @@ body {
 .cabecalho {
 	display: flex;
 	flex: 1;
-	width: 100vw;
+	width: 100%;
 	color: #1351d8;
 }
 
@@ -110,8 +110,3 @@ a {
 	opacity: 0.5;
 	transform: scale(0.9);
 }
-
-/* .redes_sociais a:hover {
-    opacity: 0.5;
-    transform: scale(0.9);
-} */
