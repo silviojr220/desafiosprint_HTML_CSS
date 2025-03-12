@@ -4,7 +4,7 @@ li {
 
 /* Ajuste o tamanho da fonte para diferentes tamanhos de tela */
 
-@media screen and (min-width: 250px) {
+@media screen and (min-width: 200px) {
     #texto__img, .redes_sociais  {
         font-size: 2vw;
     }
@@ -35,12 +35,19 @@ li {
     }
 }
 
-@media screen and (min-width: 100px) {
- .rodape img, #imagem__COPYRIGHT {
-        height: 90%;
-        width: 90%;
+@media screen and (min-width: 200px) {
+ .rodape img {
+        height: 75%;
+        width: 75%;
     }
     
+}
+
+@media screen and (min-width: 200px) {
+    #imagem__COPYRIGHT {
+        height: 50%;
+        width: 50%;
+    }
 }
 
 .imagem {
