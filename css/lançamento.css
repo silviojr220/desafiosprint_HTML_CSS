@@ -2,16 +2,26 @@
     display: flex;
     justify-content: center;
     width: 100vw;
+    height: 100vh;
 }
 
 .main__conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
 }
 
 #video__main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#video__ford {
     width: 100%;
+    height: 40vh;
 }
 
 #texto__conteudo {
@@ -20,6 +30,9 @@
     text-align: justify;
 }
 
+#titulo__texto {
+    color: rgb(255, 0, 0);
+}
 
 .main__carros {
     display: flex;
