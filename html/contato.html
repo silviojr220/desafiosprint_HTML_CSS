@@ -7,7 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,9 +21,9 @@
             <img src="/img/logo-ford-256.png" id="menu__img" alt="Logo">
             <nav class="nav">
                 <ul class="ul">
-                    <li><a href="index.html" id="menu1">Home</a></li>
+                    <li><a href="index.html" id="menu">Home</a></li>
                     <li><a href="lançamento.html" id="menu">Lançamento</a></li>
-                    <li><a href="contato.html" id="menu">Contato</a></li>
+                    <li><a href="contato.html" id="menu1">Contato</a></li>
                 </ul>
             </nav>
             <div class="separar"></div>
@@ -31,17 +31,31 @@
     </header>
 
     <main>
-        <section id="section__main">
-            <div id="div__imagem">
-                <div class="teste2">
-                    <a href="/html/lançamento.html"><img src="/img/imagem_1.jpg" alt="ford__ranger"
-                            id="imagem__main"></a>
+        <div class="contato">
+            <section class="conteudo">
+            <form action="">
+                <h1>Como podemos ajudar?</h1>
+                <div class="caixa__input">
+                    <input type="text" placeholder="Usuario" required="">
                 </div>
-                <p id="texto__img">Está é a nova Ford Ranger 2023. Verifique novidades <a href="" id="teste">aqui.</a>
-                </p>
-            </div>
+                <div class="caixa__input">
+                    <input type="email" placeholder="Email" required="">
+                </div>
+                <div class="caixa__input">
+                    <input type="tel" placeholder="Telefone" required="">
+                </div>
+                    <div>
+                        Motivo do Contato <select name="tipo__contato" class="motivo__contato" required="">
+                            <option value="N/D" id="seleção_Escolha">escolha</option>
+                            <option value="Elogio" class="seleção">Elogio</option>
+                            <option value="Reclamação" class="seleção">Reclamação</option>
+                            <option value="Solicitação" class="seleção">Solicitação</option>
+                    </div>
+                    <!-- <textarea id="opnião" placeholder="Motivo do Contato" rows="5" required=""></textarea>
+                    <button id="enviar" style="margin-top: 5%;" form="form" type="submit"><span>Enviar</span></button> -->
+            </form>
         </section>
-
+        </div>
     </main>
 
     <footer class="rodape">
