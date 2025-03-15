@@ -33,34 +33,46 @@
     <main>
         <div class="contato">
             <section class="conteudo">
-            <form action="">
-                <h1>Como podemos ajudar?</h1>
-                <div class="caixa__input">
-                    <input type="text" placeholder="Usuario" required="">
-                </div>
-                <div class="caixa__input">
-                    <input type="email" placeholder="Email" required="">
-                </div>
-                <div class="caixa__input">
-                    <input type="tel" placeholder="Telefone" required="">
-                </div>
-                    <div>
-                        Motivo do Contato <select name="tipo__contato" class="motivo__contato" required="">
-                            <option value="N/D" id="seleção_Escolha">escolha</option>
-                            <option value="Elogio" class="seleção">Elogio</option>
-                            <option value="Reclamação" class="seleção">Reclamação</option>
-                            <option value="Solicitação" class="seleção">Solicitação</option>
+                <form action="index.html" id="formulario" method="get">
+                    <h1>Como podemos ajudar?</h1>
+
+                    <div class="caixa__input">
+                        <input type="text" id="usuario" placeholder="Usuário" required>
                     </div>
-                    <!-- <textarea id="opnião" placeholder="Motivo do Contato" rows="5" required=""></textarea>
-                    <button id="enviar" style="margin-top: 5%;" form="form" type="submit"><span>Enviar</span></button> -->
-            </form>
-        </section>
+
+                    <div class="caixa__input">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="caixa__input">
+                        <input type="tel" id="telefone" placeholder="Telefone" required>
+                    </div>
+
+                    <div class="motivo__contato">
+                        <p>Motivo do Contato</p>
+                        <select name="tipo__contato" id="tipo__contato" required="">
+                            <option value="N/D" id="opcao__escolher">Selecione uma opção</option>
+                            <option value="Elogio" class="opcao">Elogio</option>
+                            <option value="Reclamação" class="opcao">Reclamação</option>
+                            <option value="Solicitação" class="opcao">Solicitação</option>
+                            <option value="Sugestão" class="opcao">Sugestão</option>
+                        </select>
+                    </div>
+
+                    <div class="caixa__input" style="justify-content: center;">
+                        <input type="text" id="mensagem" placeholder="Digite aqui." required>
+                    </div>
+                    <div class="caixa__input">
+                        <button type="submit" id="btn">Enviar</button>
+                    </div>
+                </form>
+            </section>
         </div>
     </main>
 
     <footer class="rodape">
         <nav class="redes_sociais">
-            <p>Redes Sociais</p>
+            <p>Redes Sociais.</p>
             <li><a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="/img/instagram-logo-50.png"
                         alt="Instagram_logo" class="icone"></a></li>
             <li><a href="https://www.youtube.com/fordbrasil" target="_blank"><img src="/img/youtube-squared-50.png"
