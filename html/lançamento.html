@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/lançamento.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/responsividade_lançamento.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,67 +32,119 @@
     </header>
 
     <main class="conteudo">
-        <section class="main__conteudo">
+        <section class="main__video">
             <div id="video__main">
                 <iframe id="video__ford" src="https://www.youtube.com/embed/vQsryuNmsL0?autoplay=1" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen>
-                </iframe>
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </section>
+    
         <section class="main__carros">
-            <div id="carrosVendas">
                 <div class="carros__celula">
-                    <img src="/img/XL Cabine.jpg" alt="carro">
+                    <img src="/img/XL Cabine.jpg" alt="carro" class="carro-img">
                     <div class="caixa__input">
                         <input type="checkbox" class="checkbox">
                         <div class="descricao">
                             <h4>Ford Ranger XL</h4>
-                            <p>Um carro vermelho</p>
+                            <p>R$ 170.000,00</p>
                         </div>
                         <img src="/img/info.png" alt="info" class="info__img">
-                    </div>
-                    <div class="main-table">
-                        <thead>
-                            <tr>
-                                <th>ExemploA</th>
-                                <th>ExemploB</th>
-                                <th>ExemploC</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>C.A</td>
-                                <td>C.B</td>
-                                <td>C.C</td>
-                            </tr>
-                        </tbody>
+                        <div class="car-info-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Motor:</th>
+                                        <th>Potência:</th>
+                                        <th>Torque:</th>
+                                        <th>Tração:</th>
+                                        <th>Transmissão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2.0 Turbo Diesel</td>
+                                        <td>170 cv</td>
+                                        <td>41,3 kgfm</td>
+                                        <td>4x4</td>
+                                        <td>Automática de 6 marchas</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
+    
                 <div class="carros__celula">
-                    <img src="/img/xls 2.2 diesel.jpg" alt="carro">
+                    <img src="/img/xls 2.2 diesel.jpg" alt="carro" class="carro-img">
                     <div class="caixa__input">
                         <input type="checkbox" class="checkbox">
                         <div class="descricao">
-                            <h4></h4>
-                            <p></p>
+                            <h4>Ford Ranger XLS 2.2 Diesel</h4>
+                            <p>R$ 180.000,00</p>
                         </div>
                         <img src="/img/info.png" alt="info" class="info__img">
+                        <div class="car-info-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Motor:</th>
+                                        <th>Potência:</th>
+                                        <th>Torque:</th>
+                                        <th>Tração:</th>
+                                        <th>Transmissão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2.2 Turbo Diesel</td>
+                                        <td>160 cv</td>
+                                        <td>40,0 kgfm</td>
+                                        <td>4x4</td>
+                                        <td>Automática de 6 marchas</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
+    
                 <div class="carros__celula">
-                    <img src="/img/storm.jpg" alt="carro">
+                    <img src="/img/storm.jpg" alt="carro" class="carro-img">
                     <div class="caixa__input">
                         <input type="checkbox" class="checkbox">
                         <div class="descricao">
-                            <h1></h1>
-                            <p></p>
+                            <h4>Ford Ranger Storm</h4>
+                            <p>R$ 200.000,00</p>
                         </div>
                         <img src="/img/info.png" alt="info" class="info__img">
+                        <div class="car-info-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Motor:</th>
+                                        <th>Potência:</th>
+                                        <th>Torque:</th>
+                                        <th>Tração:</th>
+                                        <th>Transmissão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>3.2 Turbo Diesel</td>
+                                        <td>200 cv</td>
+                                        <td>47,0 kgfm</td>
+                                        <td>4x4</td>
+                                        <td>Automática de 6 marchas</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <input type="button" value="Comparar" />
         </section>
     </main>
+    
     <footer class="rodape">
         <nav class="redes_sociais">
             <p>Redes Sociais</p>

@@ -1,0 +1,66 @@
+@media (min-width: 1024px) {
+    .conteudo {
+        width: 500px; 
+    }
+
+    #formulario {
+        width: 60vw; 
+    }
+
+    .caixa__input input {
+        font-size: 16px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .conteudo {
+        width: 80%;  
+        padding: 5% 5%;
+    }
+
+    #formulario {
+        width: 80vw;
+    }
+
+    .caixa__input input {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .conteudo {
+        width: 85%;
+    }
+
+    #formulario {
+        width: 90vw;
+    }
+
+    .caixa__input input {
+        font-size: 14px;
+    }
+
+    .conteudo h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 479px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    #formulario {
+        width: 95vw;
+        padding: 5% 5%;
+    }
+
+    .caixa__input input {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .conteudo h1 {
+        font-size: 16px;
+    }
+}
